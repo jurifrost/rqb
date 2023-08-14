@@ -1,0 +1,26 @@
+{
+  "name": "react-querybuilder-template-example",
+  "description": "React Query Builder Template Example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-querybuilder": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "sass": "^1.58.2",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
